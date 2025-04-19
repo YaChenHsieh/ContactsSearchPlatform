@@ -16,7 +16,7 @@ myenv/
 .git/
 .gitignore
 
-# Docker ignore 自己不需要進 image
+# Docker ignore
 .dockerignore
 
 

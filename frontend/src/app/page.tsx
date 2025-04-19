@@ -3,6 +3,10 @@
 import { useState } from 'react';
 import ResultTable from '@/components/ResultTable';
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+
+console.log("API URL:", process.env.NEXT_PUBLIC_API_URL);
+
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -24,7 +28,8 @@ export default function Home() {
     setLoading(true);
 
     // call the API
-    const res = await fetch('http://localhost:8000/contacts/hunters', {
+    // const res = await fetch('http://localhost:8000/contacts/hunters', {
+    const res = await fetch(`${API_BASE_URL}/contacts/hunters`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -48,7 +53,8 @@ export default function Home() {
     setLoading(true);
 
     // call the API
-    const res = await fetch("http://localhost:8000/contacts/alumni", {
+    const res = await fetch(`${API_BASE_URL}/contacts/alumni`, {
+    // const res = await fetch('http://localhost:8000/contacts/alumni', {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       // data pass to backend

@@ -13,12 +13,20 @@ class LinkedInGoogleScraper:
         search_url = f"https://www.google.com/search?q={encoded_query}&num={limit}" 
 
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=self.headless) # True to run in the background
+
+            # browser = p.chromium.launch(headless=self.headless) # True to run in the background
+            browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
             page = browser.new_page()
             stealth_sync(page) 
             page.goto(search_url)
+            page.wait_for_timeout(5000) # wait for loading the page
 
-            page.wait_for_selector("h3", timeout=8000)
+            try:
+                page.wait_for_selector("h3", timeout=8000)
+            except TimeoutError as e:
+                print("Timeout: <h3> not found")
+                page.screenshot(path="timeout.png")
+                return []
 
             print(f"🔎 Querying：{query}")
             print(f"🔎 URL：{search_url}")
