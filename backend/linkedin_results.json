@@ -1,0 +1,16 @@
+{
+    "site:linkedin.com/in OR site:linkedin.com/pub \"Tesla\" (HR OR \"Human Resources\" OR Recruiter OR \"Talent Acquisition\" OR \"Technical Recruiter\") \"New York\"": [
+        "https://www.linkedin.com/in/nicolefenton1",
+        "https://www.linkedin.com/in/abigail-shriber-14a52361",
+        "https://www.linkedin.com/in/zachary-haun-502434129",
+        "https://www.linkedin.com/in/mackenzie-m-dennis",
+        "https://www.linkedin.com/in/wooju-lee-701562291"
+    ],
+    "site:linkedin.com \"Tesla\" (\"SWE\" OR \"Software Engineer\") (HR OR \"Human Resources\" OR Recruiter OR \"Talent Acquisition\") \"New York\"": [
+        "https://www.linkedin.com/in/rcsigua",
+        "https://www.linkedin.com/in/nikki-chun",
+        "https://www.linkedin.com/in/kaitlyn-reilly-90b55948",
+        "https://www.linkedin.com/in/jennifer-nguyen2",
+        "https://www.linkedin.com/in/brian-mamani?trk=public_profile_samename-profile"
+    ]
+}

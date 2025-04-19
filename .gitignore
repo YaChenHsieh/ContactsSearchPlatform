@@ -1,0 +1,45 @@
+# === Python (Backend) ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.sqlite3
+*.log
+
+# Virtual environments
+**/.myenv/
+.venv/
+.myenv/
+venv/
+myenv/
+backend/venv/
+backend/myenv/
+
+# Environment variables
+.env
+.env.*
+backend/.env
+
+# === Node.js (Frontend) ===
+node_modules/
+frontend/node_modules/
+
+# Build output
+.next/
+dist/
+out/
+frontend/.next/
+frontend/dist/
+frontend/out/
+
+# Cache & logs
+*.log
+*.cache
+npm-debug.log*
+
+# === macOS System Files ===
+.DS_Store
+
+# === VSCode or IDE folders ===
+.vscode/
+.idea/

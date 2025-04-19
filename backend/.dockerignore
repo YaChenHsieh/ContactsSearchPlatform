@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# virtual env
+venv/
+env/
+myenv/
+
+.coverage
+*.cover
+*.log
+
+.git/
+.gitignore
+
+# Docker ignore 自己不需要進 image
+.dockerignore
+
+
+.vscode/
+.idea/
+
+
+# Markdown 
+README.md
+*.md

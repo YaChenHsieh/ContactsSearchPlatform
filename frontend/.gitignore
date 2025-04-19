@@ -1,0 +1,24 @@
+# === Build Output ===
+.next/
+dist/
+out/
+
+# === Dependencies ===
+node_modules/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+
+# === Log / Temp Files ===
+*.log
+*.cache
+
+# === macOS System Files ===
+.DS_Store
+
+# === Optional: VSCode Settings (if personal use only) ===
+.vscode/

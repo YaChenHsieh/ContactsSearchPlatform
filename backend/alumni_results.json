@@ -1,0 +1,23 @@
+{
+    "site:linkedin.com/in \"Bloomberg\" (\"Queens College\") (\"Software Engineer\" OR \"SWE\")": [
+        "https://www.linkedin.com/in/brandonhwang0",
+        "https://www.linkedin.com/in/mohammad-pervaiz",
+        "https://www.linkedin.com/in/nycindynavarro",
+        "https://www.linkedin.com/in/justinespinal",
+        "https://www.linkedin.com/in/andrew-martin72"
+    ],
+    "site:linkedin.com/in OR site:linkedin.com/pub \"Bloomberg\" (\"Queens College\") (\"Software Engineer\" OR \"Backend Developer\")": [
+        "https://www.linkedin.com/in/andrew-martin72",
+        "https://www.linkedin.com/in/justinespinal",
+        "https://www.linkedin.com/in/brandonhwang0",
+        "https://www.linkedin.com/in/umarali3",
+        "https://www.linkedin.com/in/mohammad-pervaiz"
+    ],
+    "site:linkedin.com/in \"Bloomberg\" \"Software Engineer\" (\"Queens College\")": [
+        "https://www.linkedin.com/in/andrew-martin72",
+        "https://www.linkedin.com/in/brandonhwang0",
+        "https://www.linkedin.com/in/justinespinal",
+        "https://www.linkedin.com/in/mohammad-pervaiz",
+        "https://www.linkedin.com/in/nycindynavarro"
+    ]
+}

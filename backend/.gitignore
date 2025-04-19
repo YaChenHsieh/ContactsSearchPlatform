@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# Virtual environment
+myenv/
+venv/
+.env/
+
+# VSCode or other IDE config folders
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Python environment files
+*.egg-info/
+.eggs/
+
+# Cache or logs (if applicable)
+*.log
+*.sqlite3
